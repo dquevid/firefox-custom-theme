@@ -1,0 +1,85 @@
+#navigator-toolbox {
+  padding: 4px;
+  border: none !important;  
+}
+
+#urlbar-input {
+  border: none !important;
+  background: none !important;
+}
+
+#navigator-toolbox * {
+  transition: .2s all;
+}
+
+#nav-bar-customization-target {
+  height: auto !important;
+}
+
+#navigator-toolbox box, #navigator-toolbox .urlbar-page-action, .toolbarbutton-1 {
+  border-radius: 20px !important;
+}
+
+.toolbarbutton-1 {
+  border-radius: 10px !important;
+}
+
+#urlbar-container::selection {
+  background: white !important;
+}
+
+#urlbar-background {
+  padding: 10px !important;
+  border: none !important;
+  border-radius: 20px !important;
+  background: #101010 !important;
+}
+
+#page-action-buttons {
+  display: none;
+}
+
+#urlbar-container {
+  background: #101010 !important;
+  padding: 4px !important;
+  border-radius: 60px !important;
+}
+
+.tab-icon-image {
+  border-radius: 10px;
+}
+
+.tab-close-button {
+  border-radius: 10px !important;
+  margin-left: 10px !important;
+}
+
+.tabbrowser-tab:not(:hover) .tab-close-button {
+  display: none;
+}
+
+.tabbrowser-tab[selected=true] {
+}
+
+.tabbrowser-tab[selected=true] .tab-background {
+  background: #181818 !important;
+}
+
+.tabbrowser-tab .tab-background {
+  border-radius: 20px !important;
+}
+
+.tabbrowser-tab[label="New Tab"] .tab-icon-image {display:none!important;}
+
+#nav-bar.browser-toolbar {
+  background-color: black !important;
+  border: none !important;
+}
+
+.titlebar-spacer {
+  display: none;
+}
+
+#fxa-toolbar-menu-button {
+  display: none;
+}

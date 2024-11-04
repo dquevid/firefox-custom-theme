@@ -1,0 +1,23 @@
+@-moz-document url("about:home"), url("about:newtab") {
+    body {
+        background: #000 !important;
+    }
+    
+    #root {
+        display: none;
+        background: #000;
+    }
+    
+    .logo-and-wordmark {
+        display: none !important;
+    }
+
+    .personalizeButtonWrapper {
+        display: none !important;
+    }
+
+    .search-handoff-button {
+        border-radius: 999px !important;
+        background: #111 !important;
+    }
+}
