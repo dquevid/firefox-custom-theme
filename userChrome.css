@@ -18,18 +18,34 @@
   padding: 5px;
 }
 
+#PersonalToolbar, #tab-notification-deck {
+  display: none !important;;
+}
+
 .titlebar-buttonbox-container {
   position: absolute;
+  background: black;
   top: 8px;
   right: 8px;
   height: 40px;
 }
 
 .titlebar-buttonbox {
-  background: color-mix(in srgb, black, transparent 50%) !important;
-  backdrop-filter: blur(2px);
+  background: black;
   border-radius: 10px;
   overflow: clip;
+}
+
+.titlebar-buttonbox-container::before {
+  position: absolute;
+  display: block;
+  content: '';
+  background: linear-gradient(to right, transparent, black);
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
 }
 
 #alltabs-button {
