@@ -3,6 +3,28 @@
   border: none !important;  
 }
 
+#main-menubar {
+  padding: 4px 2px;
+}
+
+#main-menubar menu {
+  border-radius: 10px !important;
+  padding: 2px 4px !important;
+}
+
+#main-menubar menu[_moz-menuactive=true] {
+  background: white;
+  padding: 5px;
+}
+
+.titlebar-buttonbox-container {
+  height: 25px;
+}
+
+#alltabs-button {
+  display: none !important;
+}
+
 #urlbar-input {
   border: none !important;
   background: none !important;
@@ -43,6 +65,10 @@
   background: #101010 !important;
   padding: 4px !important;
   border-radius: 60px !important;
+}
+
+.tab-content {
+  gap: 2px !important;
 }
 
 .tab-icon-image {
