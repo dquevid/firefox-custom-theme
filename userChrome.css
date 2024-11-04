@@ -39,6 +39,7 @@
 .titlebar-buttonbox-container::before {
   position: absolute;
   display: block;
+  pointer-events: none;
   content: '';
   background: linear-gradient(to right, transparent, black);
   width: 100%;
