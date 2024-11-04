@@ -1,5 +1,6 @@
 #navigator-toolbox {
-  padding: 4px;
+  padding: 8px !important;
+  gap: 4px !important;
   border: none !important;  
 }
 
@@ -18,11 +19,29 @@
 }
 
 .titlebar-buttonbox-container {
-  height: 25px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  height: 40px;
+}
+
+.titlebar-buttonbox {
+  background: color-mix(in srgb, black, transparent 50%) !important;
+  backdrop-filter: blur(2px);
+  border-radius: 10px;
+  overflow: clip;
 }
 
 #alltabs-button {
   display: none !important;
+}
+
+.urlbar-input-box {
+  margin-left: 9px;
+}
+
+#urlbar-input::selection {
+  background-color: #333 !important;
 }
 
 #urlbar-input {
@@ -50,21 +69,39 @@
   background: white !important;
 }
 
-#urlbar-background {
-  padding: 10px !important;
-  border: none !important;
+#urlbar {
+  background: #222 !important;
   border-radius: 20px !important;
-  background: #101010 !important;
 }
 
-#page-action-buttons {
-  display: none;
+#urlbar:has(#urlbar-input[aria-expanded="false"]) {
+  width: calc(100% - 4px) !important;
 }
 
 #urlbar-container {
-  background: #101010 !important;
+  background: #222 !important;
   padding: 4px !important;
   border-radius: 60px !important;
+}
+
+.urlbar-input-box {
+  width: auto !important;
+}
+
+#urlbar-background {
+  display: none !important;
+}
+
+#page-action-buttons {
+  display: none !important;
+}
+
+#tabbrowser-arrowscrollbox > tab:first-child {
+  margin-left: auto !important;
+}
+
+#tabbrowser-arrowscrollbox > hbox {
+  margin-right: auto !important;
 }
 
 .tab-content {
@@ -88,14 +125,16 @@
 }
 
 .tabbrowser-tab[selected=true] .tab-background {
-  background: #181818 !important;
+  background: #222 !important;
 }
 
 .tabbrowser-tab .tab-background {
   border-radius: 20px !important;
 }
 
-.tabbrowser-tab[label="New Tab"] .tab-icon-image {display:none!important;}
+.tabbrowser-tab[label="New Tab"] .tab-icon-image {
+  display: none !important;
+}
 
 #nav-bar.browser-toolbar {
   background-color: black !important;
