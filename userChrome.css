@@ -138,9 +138,6 @@
   display: none;
 }
 
-.tabbrowser-tab[selected=true] {
-}
-
 .tabbrowser-tab[selected=true] .tab-background {
   background: #222 !important;
 }
