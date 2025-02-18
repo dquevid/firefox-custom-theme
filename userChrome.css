@@ -1,4 +1,162 @@
+:root {
+  --tab-selected-bgcolor: #111 !important;
+  --tabstrip-min-height: auto !important;
+  --tab-border-radius: 99px !important;
+  --toolbarbutton-border-radius: 18px !important;
+  --urlbar-icon-border-radius: 99px !important;
+  
+  --toolbar-bgcolor: none !important;
+}
+
+
+
+#toolbar-menubar[inactive="true"] {
+  position: absolute !important;
+}
+
+
+
 #navigator-toolbox {
+  padding: 10px !important;
+  gap: 10px !important;
+}
+
+#navigator-toolbox * {
+  transition: .2s all ease-out !important;
+}
+
+
+
+#tabbrowser-arrowscrollbox > tab:first-child {
+  margin-left: auto !important;
+}
+
+#tabbrowser-arrowscrollbox > hbox {
+  margin-right: auto !important;
+}
+
+
+
+.tab-background {
+  margin: 0 !important;
+  min-height: auto !important;
+}
+
+/* .tabbrowser-tab:first-child .tab-background {
+  border-radius: 20px 5px 5px 20px !important;
+}
+
+.tabbrowser-tab:last-of-type .tab-background {
+  border-radius: 5px 20px 20px 5px !important;
+} */
+
+/* .tabbrowser-tab[selected="true"] {
+  transform: scale(1.05);
+} */
+
+.tabbrowser-tab[label="New Tab"] .tab-icon-stack {
+  display: none;
+}
+
+.tabbrowser-tab[label="New Tab"] .tab-label {
+  margin: 0 auto !important;s
+}
+
+.tab-label-container {
+  height: auto !important;
+}
+
+.titlebar-spacer {
+  display: none !important;
+}
+
+.titlebar-buttonbox-container {
+  position: absolute !important;
+  right: 16px;
+  top: 16px;
+}
+
+
+
+#nav-bar {
+  margin-bottom: 2px !important;
+}
+
+#nav-bar * {
+  outline: none !important;
+}
+
+#urlbar {
+  height: auto !important;
+}
+
+#urlbar-container {
+  min-height: auto !important;
+  width: 25% !important;
+  padding: 0 !important;
+}
+
+#urlbar-background {
+  border-radius: 18px !important;
+}
+
+.urlbar-input-container {
+  padding: 4px !important;
+}
+
+
+
+#tracking-protection-icon-container {
+  border-radius: 99px !important;
+}
+
+#identity-box > box {
+  border-radius: 99px !important;
+}
+
+.chromeUI > box {
+  border-radius: 99px !important;
+}
+
+.urlbar-page-action {
+  border-radius: 99px !important;
+}
+
+.toolbarbutton-icon {
+  position: relative;
+  -moz-appearance: initial;
+  
+  border-radius: 99px !important;
+}
+
+/* .toolbarbutton-icon::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+} */
+
+.toolbarbutton-badge-stack {
+  border-radius: 99px !important;
+}
+
+#nav-bar-overflow-button {
+  display: none !important;
+}
+
+
+
+#PersonalToolbar[collapsed="true"] {
+  position: absolute !important;
+  
+  transition: position 0s 0s !important;
+}
+
+/* #navigator-toolbox {
   padding: 8px !important;
   gap: 4px !important;
   border: none !important;  
@@ -186,4 +344,4 @@
 :root {
   --toolbarbutton-border-radius: 20px !important;
   --toolbarbutton-inner-padding: 12px !important;
-}
+} */
