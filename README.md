@@ -4,7 +4,7 @@
 
 ## Installation
 
-1. Locate Firefox's profile directory by going to address `about:support`. The address will be under the `Profile directory` row.
+1. Locate Firefox's profile directory by going to `about:support`. The path will be under the `Profile directory` row.
 
 2. `cd` into the profile directory and clone the repository into its `chrome` directory.
 
