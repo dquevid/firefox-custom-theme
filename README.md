@@ -15,6 +15,6 @@ git clone https://github.com/dqvid/firefox-topbar.git chrome
 
 ## ⚠️WARNING⚠️
 
-This theme changes the `.titlebar-buttonbox-container` position property to `absolute`. It may cause interlap with the `List all tabs` button.
+This theme changes the `.titlebar-buttonbox-container` position property to `absolute`. It may cause overlap with the `List all tabs` button.
 
 Move this button from topbar via `Customize toolbar` option in right click menu of topbar.
