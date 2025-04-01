@@ -4,17 +4,19 @@
 
 ## Installation
 
-1. Locate Firefox's profile directory by going to `about:support`. The path will be under the `Profile directory` row.
+1. Locate Firefox's **Profile directory** by going to `about:support`. The path will be under the **Profile directory** row.
 
-2. `cd` into the profile directory and clone the repository into its `chrome` directory.
+2. `cd` into Firefox's **Profile directory** and clone the repository into the `chrome` directory.
 
 ```bash
 git clone https://github.com/dqvid/firefox-topbar.git chrome
 ```
 3. Restart Firefox.
 
-## ⚠️WARNING⚠️
+This configuration doesn't affect Firefox's colorscheme, so it is fully compatible with your favourite themes. For a fitting dark theme i recommend [Just Right OLED Dark](https://addons.mozilla.org/en-US/firefox/addon/just-right-oled-dark/).
 
-This theme changes the `.titlebar-buttonbox-container` position property to `absolute`. It may cause overlap with the `List all tabs` button.
+## ⚠️ WARNING ⚠️
 
-Move this button from topbar via `Customize toolbar` option in right click menu of topbar.
+This configuration changes the `.titlebar-buttonbox-container` position property to `absolute`. Tbis may cause overlaps with other elements in the topbar. With Firefox's default configuration, it'll overlap with `List all tabs` button.
+
+Remove all overlapping buttons from topbar using `Customize toolbar` option in topbar's context menu.
