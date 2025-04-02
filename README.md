@@ -15,12 +15,8 @@ git clone https://github.com/dquevid/firefox-custom-theme.git chrome
 
 This configuration doesn't affect Firefox's colorscheme, so it is fully compatible with your favourite themes. For a fitting dark theme i recommend [Just Right OLED Dark](https://addons.mozilla.org/en-US/firefox/addon/just-right-oled-dark/).
 
-<<<<<<< HEAD
 ## ⚠️ WARNING ⚠️
-=======
-This theme changes the `.titlebar-buttonbox-container` position property to `absolute`. It may cause interlap with the `List all tabs` button.
->>>>>>> parent of be3484f (Update README.md)
 
-This configuration changes the `.titlebar-buttonbox-container` position property to `absolute`. Tbis may cause overlaps with other elements in the topbar. With Firefox's default configuration, it'll overlap with `List all tabs` button.
+This configuration changes the `.titlebar-buttonbox-container` position property to `absolute`. Tbis may cause overlaps with other elements in the topbar. Firefox's default configuration will overlap with `List all tabs` button.
 
 Remove all overlapping buttons from topbar using `Customize toolbar` option in topbar's context menu.
