@@ -9,7 +9,7 @@
 2. `cd` into Firefox's **Profile directory** and clone the repository into the `chrome` directory.
 
 ```bash
-git clone https://github.com/dqvid/firefox-topbar.git chrome
+git clone https://github.com/dquevid/firefox-custom-theme.git chrome
 ```
 3. Restart Firefox.
 
