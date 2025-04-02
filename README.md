@@ -1,6 +1,6 @@
 # Modern restyle of Firefox's topbar.
 
-![Theme showcase](./assets/Screenshot%202024-11-22%20210828.png "Theme showcase")
+![Theme showcase](./assets/showcase.png "Theme showcase")
 
 ## Installation
 
